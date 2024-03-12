@@ -55,7 +55,7 @@ similarity = pickle.load(open('similarity.pk1', 'rb'))
 # Streamlit App
 st.header('NETFLIX RECOMMENDATION ENGINE')
 
-imageCarouselComponent = components.declare_component("image-carousel-component", path="frontend/public")
+imageCarouselComponent = components.declare_component("image-carousel-component", path="frontend/public/image-carousel-component")
 
 imageUrls = [
     fetch_poster(1632),
